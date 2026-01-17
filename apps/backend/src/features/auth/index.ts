@@ -1,4 +1,5 @@
-import { apiErrorCodes, loginSchema, registerSchema } from "@blog/shared";
+import { apiErrorCodes } from "@blog/codes";
+import { loginSchema, registerSchema } from "@blog/schemas";
 import { eq } from "drizzle-orm";
 import { Hono } from "hono";
 

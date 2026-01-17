@@ -1,4 +1,4 @@
-import { apiErrorCodes } from "@blog/shared";
+import { apiErrorCodes } from "@blog/codes";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { csrf } from "hono/csrf";

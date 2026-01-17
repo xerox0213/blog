@@ -1,4 +1,4 @@
-import { apiErrorCodes } from "@blog/shared";
+import { apiErrorCodes } from "@blog/codes";
 import { InferSelectModel } from "drizzle-orm";
 import { deleteCookie, getCookie } from "hono/cookie";
 import { createMiddleware } from "hono/factory";

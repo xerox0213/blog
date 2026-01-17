@@ -4,15 +4,17 @@
     "dev": "bun run --hot src/main.ts",
     "db:push": "drizzle-kit push",
     "db:generate": "drizzle-kit generate",
-    "db:migrate": "drizzle-kit migrate"
+    "db:migrate": "drizzle-kit migrate",
+    "tsc:check": "tsc --noEmit"
   },
   "dependencies": {
-    "@blog/shared": "workspace:*",
+    "@blog/codes": "workspace:*",
+    "@blog/schemas": "workspace:*",
     "@hono/standard-validator": "^0.2.1",
     "@libsql/client": "^0.17.0",
     "drizzle-orm": "^0.45.1",
     "hono": "^4.11.3",
-    "zod": "^4.3.5"
+    "zod": "catalog:"
   },
   "devDependencies": {
     "@types/bun": "latest",

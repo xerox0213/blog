@@ -1,4 +1,4 @@
-import { apiErrorCodes } from "@blog/shared/codes";
+import { apiErrorCodes } from "@blog/codes";
 import { sValidator as sv } from "@hono/standard-validator";
 import { ValidationTargets } from "hono";
 import { StandardSchemaV1 } from "zod/v4/core/standard-schema.cjs";

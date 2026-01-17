@@ -1,4 +1,4 @@
-import { ApiErrorCode } from "@blog/shared";
+import { ApiErrorCode } from "@blog/codes";
 import { ContentfulStatusCode } from "hono/utils/http-status";
 
 export class ApiException {
